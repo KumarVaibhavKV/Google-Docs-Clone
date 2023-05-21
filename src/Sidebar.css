@@ -1,0 +1,37 @@
+/* Sidebar.css */
+.sidebar {
+    background-color: #f5f5f5;
+    width: 200px;
+    padding: 10px;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu-item {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-menu-item a {
+    color: #333;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .sidebar-menu-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .sidebar-menu-item i {
+    margin-right: 5px;
+  }
+  .sidebar-icon {
+    width: 16px; /* Adjust the width as per your requirements */
+    height: 16px; /* Adjust the height as per your requirements */
+    object-fit: contain;
+  }
+  
+  
